@@ -55,13 +55,13 @@ public class Task1_2 {
 	}
 
 	public static void main(String[] args) {
-		int[] array = { 12, 10, 9, 45, 2, 10, 8, 90, 10, 45, 60 };
-		int target1 = 90;
-		Task1_1 MyArray = new Task1_1(array);
-		System.out.println(MyArray.iterativeLinearSearch(target1));
+		int[] array = { 2, 5, 8, 12, 16, 38, 72, 91 };
+		int target1 = 72;
+		Task1_2 MyArray = new Task1_2(array);
+		System.out.println(MyArray.iterativeBinarySearch(target1));
 		System.out.println("------------------");
-		int target2 = 80;
-		System.out.println(MyArray.recursiveLinearSearch(target2));
+		int target2 = 45;
+		System.out.println(MyArray.recursiveBinarySearch(target2));
 	}
 
 }
