@@ -39,7 +39,7 @@ public class Task1_1 {
 	}
 
 	public static void main(String[] args) {
-		int[] array = { 12, 10, 9, 45, 2, 10, 10, 45 };	
+		int[] array = { 12, 10, 9, 45, 2, 10, 10, 45 };
 		Task1_1 MyArray = new Task1_1(array);
 		int target1 = 45;
 		System.out.println(MyArray.iterativeLinearSearch(target1));
