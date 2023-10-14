@@ -1,5 +1,4 @@
 package Lab_03;
-
 public class Task1_2 {
 	private int[] array;
 
